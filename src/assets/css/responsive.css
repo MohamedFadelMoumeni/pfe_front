@@ -1,16 +1,6 @@
 @charset "utf-8";
 
-/** 
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Edula - Online Education HTML5 Template 
-* Author : SoftCoderes
-* Author URI : http://www.softcoders.net/
-*
-* -----------------------------------------------------------------------------
-*
-**/ 
+ 
 .hidecourse{
     display: none;
 }
@@ -120,9 +110,7 @@
     .sc-banner .view-students-img{
         right: 25%;
     }
-    .sc-banner {
-        min-height: 670px;
-    }
+
     .sc-banner.banner-style4{
         min-height: 800px;
     }

@@ -17,8 +17,13 @@ const Join = () => {
                     </form>
                 </div>
                 <div class="col-lg-6 hidden-md">
-                    <div class="img-part">
-                          <img src="assets/images/cta/men-women.png" alt="Image" />
+                    <div class="img-part" 
+                    style={{height: "493px",
+                    backgroundImage: "url('join.jpg')",
+                    backgroundPosition: "center",
+                    backgroundSize: "cover"
+                    }}>
+                          
                     </div>
                 </div> 
             </div>

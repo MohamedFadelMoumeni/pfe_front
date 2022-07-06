@@ -11,7 +11,7 @@ const Statistics = () => {
                         <div className="icon-part">
                             <i class="flaticon flaticon-laptop"></i>
                         </div>
-                        <h2 className="counter-title"><span className="sc-count">16 </span><span className="text">M+</span></h2>
+                        <h2 className="counter-title">125,165</h2>
                         <h5 className="title mb-0">Students Learning</h5>
                     </div>
                 </div>
@@ -20,8 +20,8 @@ const Statistics = () => {
                         <div className="icon-part">
                             <i class="flaticon flaticon-study"></i>
                         </div>
-                        <h2 className="counter-title"><span className="sc-count">25 </span><span className="text">K+</span></h2>
-                        <h5 className="title mb-0">Total course</h5>
+                        <h2 className="counter-title"><span className="sc-count">185 </span></h2>
+                        <h5 className="title mb-0">Formations</h5>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 md-mb-30">
@@ -29,7 +29,7 @@ const Statistics = () => {
                         <div className="icon-part">
                             <i class="flaticon flaticon-teacher"></i>
                         </div>
-                        <h2 className="counter-title"><span className="sc-count">551 </span><span className="text">+</span></h2>
+                        <h2 className="counter-title"><span className="sc-count">200 </span><span className="text">+</span></h2>
                         <h5 className="title mb-0">Quality Teachers</h5>
                     </div>
                 </div>
@@ -38,8 +38,8 @@ const Statistics = () => {
                         <div className="icon-part">
                             <i class="flaticon flaticon-monitor"></i>
                         </div>
-                        <h2 className="counter-title"><span className="sc-count">150</span><span className="text">+</span></h2>
-                        <h5 className="title mb-0">Course Subjects</h5>
+                        <h2 className="counter-title"><span className="sc-count">19</span><span className="text">+</span></h2>
+                        <h5 className="title mb-0">Etablissement</h5>
                     </div>
                 </div>
             </div>

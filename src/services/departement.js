@@ -1,6 +1,6 @@
-export const getCourses = async () => {
+export const getDepts = async () => {
     try{
-        const resp = await fetch(`${process.env.REACT_APP_BACKEND}/courses`, {
+        const resp = await fetch(`${process.env.REACT_APP_BACKEND}/dept`, {
              headers: {
                 "Accept": 'application/json',
                 'Content-Type': 'application/json',

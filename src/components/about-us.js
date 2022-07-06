@@ -7,11 +7,8 @@ const Aboutus = () => {
             <div className="row align-items-center">
                 <div className="col-lg-5">
                     <div className="img-part about-big-image position-relative">
-                        <img className="" src="assets/images/about/about1.png" alt="About Image" />
-                        <div className="about-experience text-center">
-                            <span>23+</span>
-                            Years Experience
-                        </div>
+                        <img className="" src="uiz.png" alt="About Image" />
+                        
                     </div>
                 </div>
                 <div className="col-lg-7 pl-90 md-pl-15 md-mt-90">
@@ -28,9 +25,6 @@ const Aboutus = () => {
                         <li>Library Store</li>
                         <li>Develop Skills</li>
                     </ul>
-                    <div className="btn-part wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <a className="readon" href="about.html">Learn More <i class="flaticon flaticon-right-arrow"></i> </a>
-                    </div>
                 </div>
             </div>
         </div>

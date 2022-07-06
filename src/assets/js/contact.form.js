@@ -1,14 +1,4 @@
-/** 
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Edula - Online Education HTML5 Template 
-* Author : SoftCoderes
-* Author URI : http://www.softcoders.net/
-*
-* -----------------------------------------------------------------------------
-*
-**/ 
+
 
 (function($) {
     'use strict';

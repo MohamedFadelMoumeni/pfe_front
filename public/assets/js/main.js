@@ -1,14 +1,4 @@
-/**
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Edula - Education HTML Template
-* Author : Softcoderes
-* Author URI : http://www.softcoders.net/
-*
-* -----------------------------------------------------------------------------
-*
-**/
+
 (function($) {
 	"use strict";
     // sticky menu

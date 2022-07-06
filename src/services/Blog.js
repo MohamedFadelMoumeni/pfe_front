@@ -1,6 +1,6 @@
 export const getAllBlogs = async () => {
     try{
-        const resp = await fetch(`${process.env.REACT_APP_BACKEND}/blog`, {
+        const resp = await fetch(`${process.env.REACT_APP_BACKEND}/blogs`, {
              headers: {
                 "Accept": 'application/json',
                 'Content-Type': 'application/json',

@@ -8,13 +8,13 @@ const PopularCategory = () => {
         <div className="container">
             <div className="sec-title mb-30 md-mb-10">
                 <div className="sub-title position-relative">Popular Category <span className="heading-border-line"></span></div>
-                <h2 className="title mb-0">Popular Category for learn</h2>
+                <h2 className="title mb-0">Popular Formations to learn</h2>
             </div>
 
             <OwlCarousel  className="sc-carousel owl-carousel nav-style1" data-loop="true" data-items="6" data-margin="0" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="4" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="3" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="6" data-md-device-nav="true" data-md-device-dots="false">
 
                 <div className="categories-inner-top">
-                    <a className="categories-item" href="course.html">
+                    <a className="categories-item">
                         <div className="icon-part">
                             <i class="flaticon flaticon-laptop"></i>
                         </div>
@@ -26,7 +26,7 @@ const PopularCategory = () => {
                 </div>
 
                 <div className="categories-inner-top">
-                    <a className="categories-item" href="course.html">
+                    <a className="categories-item" >
                         <div className="icon-part">
                             <i class="flaticon flaticon-helmet"></i>
                         </div>
@@ -38,7 +38,7 @@ const PopularCategory = () => {
                 </div>
 
                 <div className="categories-inner-top">
-                    <a className="categories-item" href="course.html">
+                    <a className="categories-item" >
                         <div className="icon-part">
                             <i class="flaticon flaticon-cap"></i>
                         </div>
@@ -50,7 +50,7 @@ const PopularCategory = () => {
                 </div>
 
                 <div className="categories-inner-top">
-                    <a className="categories-item" href="course.html">
+                    <a className="categories-item" >
                         <div className="icon-part">
                             <i class="flaticon flaticon-apartment"></i>
                         </div>
@@ -62,7 +62,7 @@ const PopularCategory = () => {
                 </div>
 
                <div className="categories-inner-top">
-                    <a className="categories-item" href="course.html">
+                    <a className="categories-item" >
                         <div className="icon-part">
                             <i class="flaticon flaticon-computer"></i>
                         </div>
@@ -74,7 +74,7 @@ const PopularCategory = () => {
                 </div>
 
                 <div className="categories-inner-top">
-                    <a className="categories-item" href="course.html">
+                    <a className="categories-item" >
                         <div className="icon-part">
                             <i class="flaticon flaticon-briefcase"></i>
                         </div>
@@ -86,7 +86,7 @@ const PopularCategory = () => {
                 </div>
 
                 <div className="categories-inner-top">
-                    <a className="categories-item" href="course.html">
+                    <a className="categories-item" >
                         <div className="icon-part">
                             <i class="flaticon flaticon-book"></i>
                         </div>

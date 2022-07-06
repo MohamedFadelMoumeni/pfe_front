@@ -2,29 +2,24 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div id="sc-banner" className="sc-banner banner-bg position-relative ">
+        <div style={{height: "100vh", minHeight: "auto",color: "white", 
+        backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('bg.jpg')"
+        }} className="sc-banner banner-bg position-relative ">
         <div className="container">
             <div className="row">
-                <div className="col-lg-6">
-                    <div className="banner-content">
-                        <div className="sub-title wow position-relative mb-8 fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">Online Education <span className="heading-border-line"></span></div>
+                <div className="col-lg-12" >
+                    <div className="banner-content d-flex flex-column align-items-center justify-center-center ">
 
-                        <h1 className="banner-title mb-15 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2500ms">Improve your any<br /> educational skills</h1>
-                        <h5 className="banner-des mb-35 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="3000ms">
+                        <h1 className="banner-title mb-15 wow fadeInUp" style={{color: "white"}} data-wow-delay="300ms" data-wow-duration="2500ms">The university of tomorrow</h1>
+                        <h5 className="banner-des mb-35 wow fadeInUp" style={{color: "white"}} data-wow-delay="300ms" data-wow-duration="3000ms">
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                         </h5>
                         <div className="banner-btn wow fadeInUp" data-wow-delay="300ms" data-wow-duration="3500ms">
-                            <a className="readon" href="contact.html">Hire a Coach Now <i class="flaticon flaticon-right-arrow"></i></a>
+                            <a className="readon" href="contact.html">Savoir plus <i class="flaticon flaticon-right-arrow"></i></a>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6  hidden-md">
-                    <div className="banner-img animation-shape hidden-sm wow fadeInRight" data-wow-delay="300ms" data-wow-duration="2000ms">
-                        <img src="assets/images/banner/undraw_education_f8ru.png" alt="Banner Image" />
-                    </div>
-                   
-                    <div className="animate-circle"></div>
-                </div>
+               
             </div>
         </div>
         <div className="animated-arrow-1 animated-arrow left-right-new">

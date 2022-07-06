@@ -5,35 +5,16 @@ const Header = () => {
         <div className="sc-header-section">
         <header id="sc-header" className="sc-header">
 
-            <div className="topbar-area">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-md-7">
-                            <ul className="topbar-contact">
-                                <li>
-                                    <i class="flaticon flaticon-call"></i>
-                                    <a href="tel:+(111)256352">Call: +(111)256 352</a>
-                                </li>
-                                <li>
-                                    <i class="flaticon flaticon-mail"></i>
-                                    <a href="mailto:support@rstheme.com">support@softcoders.net</a>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
+            
 
-            <div className="menu-area menu-sticky">
+            <div className="menu-area menu-sticky" style={{background: "#004587", color: "#fff"}}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-3">
                           <div className="logo-cat-wrap">
-                              <div className="logo-part">
-                                  <a href="index.html">
-                                      <img src="assets/images/logo.png" alt="Logo" />
-                                  </a>
+                              <div className="logo-part mt-2">
+                                  <a href="/">
+                                 <img src="/logo_0.png" alt="Footer Logo" /> </a>
                               </div>
                           </div>
                         </div>
@@ -47,46 +28,34 @@ const Header = () => {
                                   </div>
                                   <nav className="sc-menu">
                                      <ul className="nav-menu">
-                                        <li className="current-menu-item"> <a href="index.html">Home</a>
+                                        <li className="current-menu-item color-white"> <a href="/" style={{color: "#fff"}}>Home</a>
                                            
                                         </li>
-                                        <li><a href="about.html">Formations</a> </li>
+                                        <li ><a href="/formations" style={{color: "#fff"}}>Formations</a> </li>
 
                                          <li>
-                                             <a href="#">Courses</a>
+                                             <a href="/course" style={{color: "#fff"}}>Courses</a>
                                          </li>
 
                                          <li>
-                                             <a href="#">Blog & News</a>
+                                             <a href="/blogs" style={{color: "#fff"}}>Blogs</a>
+                                             
+                                         </li>
+                                         <li>
+                                             <a href="/blogs" style={{color: "#fff"}}>Events</a>
                                              
                                          </li>
 
                                          <li >
-                                             <a href="#">About</a>
+                                             <a href="/thesis" style={{color: "#fff"}}>Thesis</a>
                                             
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/contact" style={{color: "#fff"}}>Contact</a></li>
                                      </ul> 
                                   </nav>                                         
                                 </div>                                
                             </div>
-                            <div className="expand-btn-inner text-end">
-                                <ul>
-                                    <li>
-                                        <a className="hidden-xs sc-search" data-bs-target="#search-modal" data-bs-toggle="modal" href="#">
-                                            <i class="flaticon flaticon-magnifying-glass"></i>
-                                        </a>
-
-                                    </li> 
-                                </ul>
-                                <span>
-                                    <a id="nav-expander" className="nav-expander">
-                                        <span className="dot1"></span>
-                                        <span className="dot2"></span>
-                                        <span className="dot3"></span>
-                                    </a>
-                                </span>
-                            </div>
+                       
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,6 @@ const Homepage = () => {
             <PopularCategory />
             <Aboutus />
             <Statistics />
-            <Testimentials />
             <ProfessionTeacher />
             <Join />
             <BlogSection />
